@@ -38,7 +38,7 @@ int main(){
     PIB = (float) PIB;
 
     densidade_populacional = (float) populacao / area;
-    PIB_Capita = populacao / PIB;
+    PIB_Capita = (PIB * 1000000000)  / populacao;
     inv_densidade_populacional = 1 / densidade_populacional;
     
 
@@ -88,7 +88,7 @@ int main(){
 
     PIB_2 = (float) PIB_2;
     
-    PIB_Capita_2 = PIB_2 / populacao_2;
+    PIB_Capita_2 = (PIB_2 * 1000000000)  / populacao_2;
 
     densidade_populacional_2 = (float) populacao_2 / area_2;
     inv_densidade_populacional_2 = 1 / densidade_populacional_2;
